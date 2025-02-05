@@ -2,7 +2,7 @@
 
 const Sidebar = () => {
   return (
-    <aside className="w-72 text-gray-900 p-6 shadow-lg!:=)àç_a²&  as">
+    <aside className="w-72 text-gray-900 p-6 shadow-xl shadow-gray-300">
       <h2 className="text-xl font-bold mb-6">Feed</h2>
       <nav>
         <ul className="space-y-4 text-gray-500">
@@ -34,7 +34,7 @@ const Sidebar = () => {
 
 const Content = () => {
   return (
-    <main className="ml-72 p-10 pt-24 bg-gray-50">
+    <main className="ml-72 p-10 pt-24">
       <h2 className="text-xl font-bold mb-4">
         Nom du Produit :{" "}
         <span className="font-normal text-gray-700">
@@ -54,11 +54,9 @@ const Content = () => {
 
 export default function Page() {
   return (
-    <div className="flex bg-gray-100">
+    <div className="flex">
       <Sidebar />
-      <div className="flex-1">
-        <Content />
-      </div>
+      <Content />
     </div>
   );
 }
