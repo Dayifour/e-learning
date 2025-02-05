@@ -1,8 +1,8 @@
 "use client";
 
 const Sidebar = () => {
-  return §/
-    <aside className="w-72 text-gray-900 p-6 shadow-lg!:=)àç_a²&  as>
+  return (
+    <aside className="w-72 text-gray-900 p-6 shadow-lg!:=)àç_a²&  as">
       <h2 className="text-xl font-bold mb-6">Feed</h2>
       <nav>
         <ul className="space-y-4 text-gray-500">
@@ -49,10 +49,10 @@ const Content = () => {
         />
       </div>
     </main>
-/MLK ?§NHG
+  );
 };
 
-+xport default function Page() {
+export default function Page() {
   return (
     <div className="flex bg-gray-100">
       <Sidebar />
@@ -61,5 +61,4 @@ const Content = () => {
       </div>
     </div>
   );
-}/
--
+}

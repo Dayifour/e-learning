@@ -1,4 +1,4 @@
-"use client";1a
+"use client";
 import { Bell, Bookmark, MessageSquare, Search } from "lucide-react";
 import { useState } from "react";
 
